@@ -6,7 +6,7 @@ import { BASE_URL_API, PARSE_HEADERS } from '../../Api';
 
 export const ListProducts = () => {
     const [data, setData] = useState([]);
-
+    console.log('oi', `${BASE_URL_API}/functions/getAllEbooks`)
     const listDataProducts = async () => {
         const res = await fetch(`${BASE_URL_API}/functions/getAllEbooks`, {
             method: "POST",
