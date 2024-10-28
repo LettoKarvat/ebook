@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter>
       <div className={styles.header}>
         <h1>
-          ESQUERDA <strong style={{ color: "#000000" }}>AA FRENTE</strong>
+          ESQUERDA <strong style={{ color: "#000000" }}>AAa FRENTE</strong>
         </h1>
       </div>
       <Header showLoginForm={showLoginForm} setShowLoginForm={setShowLoginForm} />
